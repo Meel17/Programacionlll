@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de usuarios</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Parcial 1 - División 132</h1>
+    </header>
+
+    <main>
+        <section class="usuarios">
+            <h2 id="titulo-usuarios">Users</h2>
+            <hr>
+
+            <div class="controles">
+                <div class="estados">
+                    <label><input type="radio" name="estado" value="active" checked> Active</label>
+                    <label><input type="radio" name="estado" value="inactive"> Inactive</label>
+                    <label><input type="radio" name="estado" value="all"> All</label>
+                </div>
+
+                <input type="text" id="busqueda" placeholder="Search Users">
+            </div>
+
+            <div class="botones">
+                <button type="button">CREATE</button>
+                <button type="button">DEACTIVATE</button>
+                <button type="button">RESET PASSWORD</button>
+            </div>
+
+            <div id="users-container"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Nombre y apellido: Melanie Sosa</p>
+    </footer>
+</body>
+</html>
